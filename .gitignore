@@ -1,0 +1,14 @@
+# 忽略虚拟环境
+venv/
+
+# 忽略 Vue 的巨大依赖包 (虽然你图里没展开，但肯定有)
+frontend/node_modules/
+frontend/dist/
+
+# 忽略 Python 缓存和数据库
+__pycache__/
+*.pyc
+*.sqlite3
+
+# 忽略敏感数据 (可选，看你想不想传 csv)
+# data.csv
