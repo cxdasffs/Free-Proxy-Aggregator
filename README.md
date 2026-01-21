@@ -1,11 +1,11 @@
-# Proxy Admin / 高级代理管理系统 (Advanced Proxy Management System)
+# Proxy Admin / 免费代理管理系统 (Free-Proxy-Aggregator)
 
 [English](#english) | [中文](#chinese)
 
 ---
 
 <a name="english"></a>
-## 🌍 Advanced Proxy Management & Penetration Testing System
+## 🌍 Free-Proxy-Aggregator
 
 Proxy Admin is a powerful, full-stack proxy management platform designed for security researchers and penetration testers. It automates the lifecycle of proxies: from fetching massive lists, validating anonymity/speed, to executing real-time simulated attacks.
 
@@ -73,13 +73,13 @@ celery -A backend worker --pool=gevent --loglevel=info
 ---
 
 <a name="chinese"></a>
-## 🇨🇳 高级代理管理与渗透测试系统
+## 🇨🇳 免费代理管理系统
 
 Proxy Admin 是一个专为安全研究人员设计的全栈代理管理平台。它实现了代理的全生命周期管理：从海量源抓取、匿名度/速度验证，到执行实时的模拟攻击测试。
 
 ### 🚀 核心功能
 
-*   **海量代理池**：集成 10+ 个免费代理源（Fate0, TheSpeedX, 89ip 等），轻松抓取 10万+ 代理。
+*   **海量代理池**：集成 10+ 个免费代理源（Fate0, TheSpeedX, 89ip 等），轻松抓取 5万+ 代理。
 *   **高匿筛选验证**：自动识别 `Elite` (高匿) 与 `Transparent` (透明) 代理，确保您的真实 IP 不泄露。
 *   **指纹伪装技术**：集成 `curl_cffi`，完美模拟 **Chrome 110** 的 TLS 指纹，有效绕过 Cloudflare 等 WAF 防护。
 *   **实时流式攻击**：基于 SSE (Server-Sent Events) 的攻击模块，支持高并发、低延迟的压力测试。
@@ -130,7 +130,7 @@ celery -A backend worker --pool=gevent --loglevel=info
 
 1.  **获取代理**：点击页面顶部的 "Start Scan" 按钮，系统将从全网抓取代理。
 2.  **自动验证**：后台任务会自动清洗数据，识别出 "Elite" 高匿代理。
-3.  **发起攻击**：
+3.  **发起压测**：
     *   输入目标 URL。
     *   选择协议（HTTP/SOCKS）或地区。
     *   **严格模式 (默认)**：仅使用经验证的高匿代理，安全无忧。
