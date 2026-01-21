@@ -3,7 +3,8 @@
 [English](#english) | [中文](#chinese)
 
 ---
-![Uploading image.png…]()
+<img width="1826" height="968" alt="屏幕截图 2026-01-21 190351" src="https://github.com/user-attachments/assets/772ebe23-ab0a-4e03-9dca-e08cfbadd943" />
+
 
 <a name="english"></a>
 ## 🌍 Free-Proxy-Aggregator
